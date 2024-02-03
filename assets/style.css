@@ -23,7 +23,7 @@ body {
 }
 
 .name {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.52);
     margin-bottom: 7px;
     filter: drop-shadow(1px 0px 30px #fff);
 }
@@ -56,7 +56,7 @@ body {
 }
 
 .meio {
-    background-color: #8B8899;
+    background-color: #867487;
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -71,6 +71,7 @@ body {
 }
 
 .h1-meio {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.52);
     font-size: 40px;
     margin-bottom: 20px;
     filter: drop-shadow(1px 0px 30px #6C0221);
@@ -86,7 +87,7 @@ body {
 }
 
 .p-meio {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 20px;
 }
 
