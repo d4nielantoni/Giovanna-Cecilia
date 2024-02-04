@@ -134,6 +134,60 @@ body {
     transform: scale(0.9);
 }
 
+.final{
+    /* background-color: #F4D5D2; */
+    color: #576378;
+    padding: 30px;
+    background-color:#F4D5D2;
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+.final h1{
+    margin-bottom: 40px;
+    filter: drop-shadow(10px 0px 30px #CF6281);
+}
+.final h2{
+    margin-bottom: 30px;
+}
+.final p {
+    margin-bottom: 30px;;
+}
+.final h3{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.final img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto 30px;
+}
+.whatsapp-button-final {
+    margin: 0 auto; 
+    display: block; 
+    background-color: #00C61B;
+    text-decoration: none;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+    font-size: 18px;
+    text-align: center;
+    padding: 9px;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 20px;
+}
+.whatsapp-button-final:hover {
+    transform: scale(1.1);
+}
+
+
 @media screen and (max-width: 768px) {
     .inicio {
         height: 650px;
