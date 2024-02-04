@@ -314,6 +314,15 @@ ul {
   ul li a:hover:nth-child(3) {
     color: #c32aa3;
   }
+  .mapa{
+    margin: 0 auto; 
+    display: block; 
+    border: 0;
+    border-radius: 15px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+  }
   
 
 
@@ -366,4 +375,13 @@ ul {
     .whatsapp-button-meio {
         font-size: 14px;
     }
+    .mapa{
+        margin: 0 auto; 
+        display: block; 
+        border: 0;
+        border-radius: 15px;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 20px;
+      }
 }
