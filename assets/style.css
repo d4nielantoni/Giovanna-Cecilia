@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Quando', serif;
+    
 }
 
 body {
@@ -56,7 +57,7 @@ body {
 }
 
 .meio {
-    background-color: #867487;
+    background-color: #9EA9AA;
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -104,7 +105,34 @@ body {
     transition: transform 0.3s ease-in-out;
     margin-top: 20px;
 }
+.whatsapp-button-meio:hover {
+    transform: scale(1.3);
+}
 
+.galeria{
+    display: inline-block;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 15px 15px;
+    background-color: #C3DAE6;
+    font-size: 18px;
+    color: white;
+}
+.galeria .descricao{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Quando', serif;
+}
+.galeria img{
+    width: 231px;
+    height: 231px;
+    border-radius: 15px 15px;
+    padding: 29px;
+}
+.galeria:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(0.9);
+}
 
 @media screen and (max-width: 768px) {
     .inicio {
@@ -127,6 +155,24 @@ body {
 
     .h1-meio {
         font-size: 30px;
+    }
+    .galeria {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border:none;
+    }
+
+    .galeria img {
+        width: 300px; 
+        height:300px; 
+        margin-bottom: 10px;
+        border-radius: 25px 25px;
+    }
+
+    .galeria .descricao {
+        padding: 5px; 
+
     }
 
     .img-gio2 {
