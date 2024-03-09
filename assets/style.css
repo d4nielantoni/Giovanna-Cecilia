@@ -387,3 +387,18 @@ ul {
         margin-top: 20px;
       }
 }
+@media screen and (min-width: 1024px) {
+    .inicio {
+        background-image: url(./img/gio2.jpeg); /* Nova posição para resoluções de notebook */
+        height: 120vh; 
+        justify-content: left;
+    }
+    .meio{
+        height: 120vh; 
+    }
+    .final{
+        height: 120vh; 
+    }
+        
+    }
+
